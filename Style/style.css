@@ -1,0 +1,182 @@
+.open-sans-normal{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+/* for all */
+.cl1{ 
+    /* for small text */
+    color: #474747;
+}
+.cl2{
+    /* for big text */
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.cl3{ 
+    /* for background */
+    background-color: #fff5ef;
+}
+.cl4{
+    color: rgb(117, 117, 117);
+}
+/* Nev style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav li>a{
+    text-decoration: none;
+}
+.nav-h3{
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 44px;
+}
+/* header */
+.side-img{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/* main here */
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
+/* button is here */
+button{
+    font-size: 1.5em;
+    color:white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-color:orangered;
+    border-radius: 9px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+    margin: 0 5px 0;
+}
+button:hover{
+    background-color: rgb(11, 170, 11);
+    color: rgb(255, 255, 255);
+    border-color: green;
+}
+
+.btn-down{
+    padding: 0 auto 0;
+}
+/* banner here */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 200px; 
+}
+.bnr-item{
+    max-width: 600px;
+}
+
+
+/* about here */
+.about{
+    border-radius: 10px;
+    padding: 150px 150px;
+    text-align: center;
+    margin: 100px 400px;
+    height: 250px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: 600;
+}
+/* what i do here */
+.skill-1{ */
+    border-radius: 10px;
+    padding: 0 150px;
+    text-align: center;
+    margin: 10px 100px;
+    height: 200px;
+}
+.skill-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    height: 100px;
+}
+.skill-con .skill-2{
+    padding: 10px 50px 290px;
+    text-align: left;
+    margin: 1px 50px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgb(53, 52, 52) ;
+}
+.slill-des{
+    padding-right: 40px;
+}
+
+/* resume here */
+.section-main{
+    justify-content: center;
+    text-align: center;
+    margin: 350px 350px 50px; 
+}
+
+.resume-main{
+    display: flex;
+    text-align: left;
+    margin: 0 auto 50px;
+    border: 0 500px 0;
+    padding-left: 140px;
+}
+.resume-main .resume-colum{
+    padding: 0 110px 0;
+}
+/* footer here */
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff5ef;
+    
+}
+.footer-1{
+    flex: 1;
+    text-align: left;
+    margin-left: 500px;
+    
+}
+
+.footer-2{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 100px;
+} 
+.footer-2 form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 300px 0;
+    gap: 10px;
+}
+.icon{
+    margin-top: 20px;
+}
+.icon a{
+    margin-right: 10px;
+}
